@@ -1,0 +1,12 @@
+ID,ROLL_NUMBER,FIRST_NAME,LAST_NAME,GENDER,DOB,EMAIL,PHONE_NUMBER,ADDRESS,CITY,STATE,POSTAL_CODE,DEPARTMENT,COURSE,YEAR_OF_STUDY,SECTION,ADMISSION_DATE,STATUS,GUARDIAN_NAME,GUARDIAN_PHONE
+1,STU2026001,Aarav,Sharma,M,2005-01-15,aarav.sharma@example.com,9876543210,"12 MG Road",Bengaluru,Karnataka,560001,Computer Science,B.Tech,1,A,2026-06-15,A,Rajesh Sharma,9876500001
+2,STU2026002,Diya,Patel,F,2004-08-22,diya.patel@example.com,9876543211,"45 Lake View",Mysuru,Karnataka,570001,Information Technology,B.Tech,2,B,2025-06-20,A,Mehul Patel,9876500002
+3,STU2026003,Rohan,Gupta,M,2003-11-10,rohan.gupta@example.com,9876543212,"78 Park Street",Hyderabad,Telangana,500001,Electronics,B.Tech,3,A,2024-06-18,A,Anil Gupta,9876500003
+4,STU2026004,Sneha,Reddy,F,2005-03-18,sneha.reddy@example.com,9876543213,"34 Green Avenue",Chennai,Tamil Nadu,600001,Computer Science,B.Tech,1,C,2026-06-15,A,Suresh Reddy,9876500004
+5,STU2026005,Karan,Verma,M,2004-07-25,karan.verma@example.com,9876543214,"56 Rose Colony",Pune,Maharashtra,411001,Mechanical Engineering,B.Tech,2,A,2025-06-20,I,Vijay Verma,9876500005
+6,STU2026006,Ananya,Iyer,F,2003-12-05,ananya.iyer@example.com,9876543215,"89 Temple Road",Coimbatore,Tamil Nadu,641001,Electrical Engineering,B.Tech,3,B,2024-06-18,A,Ravi Iyer,9876500006
+7,STU2026007,Vikram,Singh,M,2005-02-14,vikram.singh@example.com,9876543216,"21 Hill View",Jaipur,Rajasthan,302001,Civil Engineering,B.Tech,1,A,2026-06-15,A,Mahesh Singh,9876500007
+8,STU2026008,Priya,Nair,F,2004-09-09,priya.nair@example.com,9876543217,"67 River Side",Kochi,Kerala,682001,Computer Science,B.Tech,2,C,2025-06-20,A,Sunil Nair,9876500008
+9,STU2026009,Aditya,Joshi,M,2003-06-30,aditya.joshi@example.com,9876543218,"102 Central Park",Nagpur,Maharashtra,440001,Data Science,B.Tech,4,A,2023-06-19,G,Sanjay Joshi,9876500009
+10,STU2026010,Meera,Kapoor,F,2005-05-12,meera.kapoor@example.com,9876543219,"11 Sunrise Apartments",New Delhi,Delhi,110001,Artificial Intelligence,B.Tech,1,B,2026-06-15,A,Amit Kapoor,9876500010
+

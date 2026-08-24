@@ -1,0 +1,218 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:macros="sap.fe.macros"
+    xmlns:microchart="sap.suite.ui.microchart"
+    xmlns:vbm="sap.ui.vbm">
+
+    <VBox
+        id="VBox"
+        width="100%"
+        class="sapUiSmallMargin"
+        core:require="{
+            handler: 'anubhav/ui/manageorders/ext/fragment/Anubhav'
+        }">
+
+        <!-- Existing Action -->
+        <Button
+            id="Button"
+            text="Anubhav"
+            type="Emphasized"
+            press="handler.onPress"
+            class="sapUiTinyMarginBottom" />
+
+        <!-- Flight Summary -->
+        <Panel
+            id="FlightSummaryPanel"
+            headerText="Flight Performance"
+            expandable="false"
+            class="sapUiSmallMarginTop">
+
+            <VBox class="sapUiSmallMargin">
+
+                <HBox
+                    justifyContent="SpaceBetween"
+                    alignItems="Center"
+                    class="sapUiTinyMarginBottom">
+
+                    <VBox>
+                        <Title
+                            text="Phuket → Delhi"
+                            level="H4" />
+
+                        <Text
+                            text="Flight activity - last 6 months"
+                            class="sapUiTinyMarginTop" />
+                    </VBox>
+
+                    <ObjectNumber
+                        number="78"
+                        unit="Flights"
+                        state="Success" />
+
+                </HBox>
+
+                <!-- Hardcoded Micro Chart -->
+                <microchart:ColumnMicroChart
+                    id="FlightMicroChart"
+                    width="100%"
+                    height="120px"
+                    isResponsive="true">
+
+                    <microchart:leftTopLabel>
+                        <microchart:ColumnMicroChartLabel
+                            label="Flights" />
+                    </microchart:leftTopLabel>
+
+                    <microchart:rightTopLabel>
+                        <microchart:ColumnMicroChartLabel
+                            label="Monthly" />
+                    </microchart:rightTopLabel>
+
+                    <microchart:leftBottomLabel>
+                        <microchart:ColumnMicroChartLabel
+                            label="Jan" />
+                    </microchart:leftBottomLabel>
+
+                    <microchart:rightBottomLabel>
+                        <microchart:ColumnMicroChartLabel
+                            label="Jun" />
+                    </microchart:rightBottomLabel>
+
+                    <microchart:columns>
+
+                        <microchart:ColumnMicroChartData
+                            value="10"
+                            label="Jan"
+                            color="Good" />
+
+                        <microchart:ColumnMicroChartData
+                            value="14"
+                            label="Feb"
+                            color="Good" />
+
+                        <microchart:ColumnMicroChartData
+                            value="12"
+                            label="Mar"
+                            color="Good" />
+
+                        <microchart:ColumnMicroChartData
+                            value="16"
+                            label="Apr"
+                            color="Good" />
+
+                        <microchart:ColumnMicroChartData
+                            value="11"
+                            label="May"
+                            color="Critical" />
+
+                        <microchart:ColumnMicroChartData
+                            value="15"
+                            label="Jun"
+                            color="Good" />
+
+                    </microchart:columns>
+
+                </microchart:ColumnMicroChart>
+
+            </VBox>
+
+        </Panel>
+
+
+        <!-- Flight Route -->
+        <Panel
+            id="FlightMapPanel"
+            headerText="Flight Route"
+            expandable="false"
+            class="sapUiSmallMarginTop">
+
+            <VBox>
+
+                <HBox
+                    justifyContent="SpaceBetween"
+                    class="sapUiTinyMargin">
+
+                    <ObjectStatus
+                        text="HKT · Phuket"
+                        state="Information"
+                        icon="sap-icon://flight" />
+
+                    <Text
+                        text="→"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginEnd" />
+
+                    <ObjectStatus
+                        text="DEL · Delhi"
+                        state="Success"
+                        icon="sap-icon://flight" />
+
+                </HBox>
+
+                <vbm:GeoMap
+                    id="FlightMap"
+                    width="100%"
+                    height="420px"
+                    initialPosition="88.0;17.5;0"
+                    initialZoom="4"
+                    scaleVisible="true"
+                    legendVisible="false"
+                    navcontrolVisible="true">
+
+                    <vbm:vos>
+
+                        <!-- Airport markers -->
+                        <vbm:Spots id="AirportSpots">
+
+                            <vbm:items>
+
+                                <!-- Phuket -->
+                                <vbm:Spot
+                                    id="PhuketSpot"
+                                    position="98.3169;8.1132;0"
+                                    tooltip="HKT - Phuket International Airport"
+                                    text="HKT"
+                                    type="Success" />
+
+                                <!-- Delhi -->
+                                <vbm:Spot
+                                    id="DelhiSpot"
+                                    position="77.1025;28.5562;0"
+                                    tooltip="DEL - Indira Gandhi International Airport"
+                                    text="DEL"
+                                    type="Success" />
+
+                            </vbm:items>
+
+                        </vbm:Spots>
+
+
+                        <!-- Flight route -->
+                        <vbm:Routes id="FlightRoutes">
+
+                            <vbm:items>
+
+                                <vbm:Route
+                                    id="PhuketDelhiRoute"
+                                    position="98.3169;8.1132;0;77.1025;28.5562;0"
+                                    tooltip="Flight route: Phuket (HKT) → Delhi (DEL)"
+                                    color="rgb(0,112,242)"
+                                    colorBorder="rgb(255,255,255)"
+                                    start="0"
+                                    end="1" />
+
+                            </vbm:items>
+
+                        </vbm:Routes>
+
+                    </vbm:vos>
+
+                </vbm:GeoMap>
+
+            </VBox>
+
+        </Panel>
+
+    </VBox>
+
+</core:FragmentDefinition>

@@ -1,0 +1,964 @@
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.745914] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.825264] Updating process: "web" (STDOUT, API)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.070865] Uploading app package for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.257304] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.125262] Creating build for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.426659] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467376] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467415] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 creating container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.796070] Security group rules were updated (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.843150] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully created container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211058] Downloading app package... (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211091] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.284434] Downloaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.445384] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496088] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496119] [31;1m**WARNING**[0m buildpack version changed from 1.9.2 to 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587062] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587084] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587127] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553419] -----> Installing binaries (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553458] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553464] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553491] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553570] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271049] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271074] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271097] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518697] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518739] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520074] NODE_ENV=production (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520100] NODE_HOME=/tmp/contents703497657/deps/0/node (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520104] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520106] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520108] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520111] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520113] -----> Building dependencies (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520116] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520118] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.901753] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.948813] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283227] up to date in 273ms (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283464] 4 packages are looking for funding (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283632] run `npm fund` for details (STDOUT, STG)#
+#2026 08 19 17:46:41.939#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-336#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.779819] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305390] Exit status 0 (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305431] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305463] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305496] Uploading droplet... (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.320663] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.855016] Creating droplet for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.921816] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 08 19 17:46:51.943#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-341#
+[PollStageAppStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.935667] Uploading complete (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.745914] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.825264] Updating process: "web" (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.070865] Uploading app package for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.257304] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.125262] Creating build for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.426659] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467376] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467415] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 creating container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.796070] Security group rules were updated (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.843150] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully created container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211058] Downloading app package... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211091] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.284434] Downloaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.445384] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496088] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496119] [31;1m**WARNING**[0m buildpack version changed from 1.9.2 to 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587062] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587084] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587127] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553419] -----> Installing binaries (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553458] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553464] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553491] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553570] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271049] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271074] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271097] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518697] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518739] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520074] NODE_ENV=production (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520100] NODE_HOME=/tmp/contents703497657/deps/0/node (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520104] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520106] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520108] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520111] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520113] -----> Building dependencies (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520116] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520118] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.901753] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.948813] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283227] up to date in 273ms (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283464] 4 packages are looking for funding (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283632] run `npm fund` for details (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.779819] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305390] Exit status 0 (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305431] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305463] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305496] Uploading droplet... (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.320663] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.855016] Creating droplet for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.921816] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.935667] Uploading complete (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.679287] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 stopping instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.679335] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 destroying container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.730569] Staging complete for build f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.026999] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({:droplet_guid=>"3a615694-4c73-41d3-ae79-c5b06d03be67"}) (STDOUT, API)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.401014] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 creating container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.700947] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.764816] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 successfully created container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:55.014464] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully destroyed container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.105193] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.245698] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.534719] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.534748] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637383] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637781] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637792] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637796] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637799] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637802] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637806] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637808] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637812] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637814] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637817] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637821] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637825] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637827] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637830] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637832] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637834] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637836] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637837] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637839] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637841] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.829869] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.829898] Deployment started at 2026-08-19 17:47:00 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830040] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830066] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830072] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830078] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830088] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830360] Deployment ended at 2026-08-19 17:47:00 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830456] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830690] (4s 265ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838823] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838840] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838843] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838847] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838849] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.888499] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:01.350240] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 stopping instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:01.927#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-351#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:01.350291] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 destroying container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.745914] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:13.825264] Updating process: "web" (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.070865] Uploading app package for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:22.257304] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.125262] Creating build for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.426659] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467376] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.467415] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 creating container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.796070] Security group rules were updated (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:32.843150] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully created container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211058] Downloading app package... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.211091] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.284434] Downloaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.445384] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496088] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.496119] [31;1m**WARNING**[0m buildpack version changed from 1.9.2 to 1.9.3 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587062] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587084] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:33.587127] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553419] -----> Installing binaries (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553458] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553464] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553491] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:36.553570] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271049] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271074] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.271097] Copy [/tmp/buildpacks/adc5840e3e50b48d/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518697] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.518739] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520074] NODE_ENV=production (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520100] NODE_HOME=/tmp/contents703497657/deps/0/node (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520104] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520106] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520108] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520111] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520113] -----> Building dependencies (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520116] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.520118] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.901753] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:38.948813] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283227] up to date in 273ms (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283464] 4 packages are looking for funding (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.283632] run `npm fund` for details (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:39.779819] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305390] Exit status 0 (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305431] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305463] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.305496] Uploading droplet... (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.320663] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:47.855016] Creating droplet for app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.921816] Uploaded droplet (59.3M) (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:50.935667] Uploading complete (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.679287] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 stopping instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.679335] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 destroying container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:51.730569] Staging complete for build f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.026999] Updated app with guid 226dcc0b-a6a8-45c3-833a-d67d2c896271 ({:droplet_guid=>"3a615694-4c73-41d3-ae79-c5b06d03be67"}) (STDOUT, API)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.401014] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 creating container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.700947] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:52.764816] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 successfully created container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:55.014464] Cell cdd66a98-00c8-41cf-94b2-8f9408d19596 successfully destroyed container for instance f9bf1f7f-cbe9-4f7f-af64-f949d890997c (STDOUT, STG)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.105193] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.245698] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.534719] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.534748] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637383] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637781] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637792] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637796] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637799] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637802] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637806] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637808] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637812] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637814] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637817] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637821] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637825] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637827] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637830] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637832] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637834] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637836] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637837] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637839] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:46:56.637841] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.829869] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.829898] Deployment started at 2026-08-19 17:47:00 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830040] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830066] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830072] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830078] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830088] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830360] Deployment ended at 2026-08-19 17:47:00 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830456] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.830690] (4s 265ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838823] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838840] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838843] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838847] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.838849] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:00.888499] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:01.350240] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 stopping instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:01.350291] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 destroying container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:03.493510] Cell 4761c3fb-8e91-4ced-804b-3db53058de34 successfully destroyed container for instance 16c9ed2c-04a3-4bbb-b4f6-ce9af26e771d (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:04.701574] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 creating container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:05.011800] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:05.070659] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 successfully created container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.026775] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.169537] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.456951] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.456971] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.553866] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554270] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554282] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554285] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554291] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554293] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554302] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554304] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554307] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554308] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554311] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554314] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554316] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554318] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554321] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554323] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554324] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554326] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554328] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554333] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:11.958#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-357#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:08.554336] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756113] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756143] Deployment started at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756368] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756388] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756398] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756417] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756487] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756874] Deployment ended at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756914] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.757123] (4s 270ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766170] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766180] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766184] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766188] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766191] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.816062] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094089] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 stopping instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094149] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 destroying container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:21.985#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-365#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:15.210376] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 successfully destroyed container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756113] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756143] Deployment started at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756368] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756388] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756398] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756417] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756487] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756874] Deployment ended at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756914] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.757123] (4s 270ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766170] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766180] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766184] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766188] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766191] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.816062] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094089] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 stopping instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094149] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 destroying container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:15.210376] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 successfully destroyed container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.063404] Cell c029166f-5c99-471a-95ad-14514ab6ab95 creating container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.370110] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.448682] Cell c029166f-5c99-471a-95ad-14514ab6ab95 successfully created container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.332385] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.473840] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.763319] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.763354] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.859741] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860143] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860158] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860160] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860163] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860166] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860168] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860169] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860173] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860175] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860178] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860182] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860184] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860186] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860188] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860190] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860192] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860194] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860200] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860202] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860204] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070281] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070349] Deployment started at 2026-08-19 17:47:31 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070576] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070596] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070614] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070617] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070623] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070943] Deployment ended at 2026-08-19 17:47:31 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.071084] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.071227] (4s 277ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079675] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079697] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079705] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079709] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079712] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:31.970#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-374#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.129471] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756113] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756143] Deployment started at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756368] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756388] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756398] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756417] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756487] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756874] Deployment ended at 2026-08-19 17:47:12 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.756914] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.757123] (4s 270ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766170] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766180] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766184] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766188] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.766191] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:12.816062] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094089] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 stopping instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:42.016#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:13.094149] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 destroying container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:15.210376] Cell c343a1ce-501c-453d-aabd-5a2aaaa23496 successfully destroyed container for instance 492eabc1-1746-4771-b56d-5ca4c12361ce (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.063404] Cell c029166f-5c99-471a-95ad-14514ab6ab95 creating container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.370110] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:23.448682] Cell c029166f-5c99-471a-95ad-14514ab6ab95 successfully created container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.332385] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.473840] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.763319] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.763354] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.859741] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860143] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860158] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860160] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860163] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860166] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860168] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860169] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860173] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860175] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860178] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860182] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860184] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860186] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860188] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860190] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860192] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860194] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860200] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860202] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:26.860204] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070281] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070349] Deployment started at 2026-08-19 17:47:31 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070576] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070596] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070614] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070617] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070623] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.070943] Deployment ended at 2026-08-19 17:47:31 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.071084] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.071227] (4s 277ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079675] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079697] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079705] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079709] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.079712] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.129471] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.682451] Cell c029166f-5c99-471a-95ad-14514ab6ab95 stopping instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:31.682481] Cell c029166f-5c99-471a-95ad-14514ab6ab95 destroying container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:33.841309] Cell c029166f-5c99-471a-95ad-14514ab6ab95 successfully destroyed container for instance 93af9e1e-e8ba-4348-82a4-50590e1b92ef (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:35.347088] Cell c029166f-5c99-471a-95ad-14514ab6ab95 creating container for instance 73aa2620-0bcc-4fa3-a7c2-090bbd582e6b (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:35.655141] Security group rules were updated (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:35.727092] Cell c029166f-5c99-471a-95ad-14514ab6ab95 successfully created container for instance 73aa2620-0bcc-4fa3-a7c2-090bbd582e6b (STDOUT, CELL)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:38.849410] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:38.987980] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.282239] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.282263] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385170] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385600] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385613] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385615] { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385619] "name": "mycapapp-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385621] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385626] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385628] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385630] "schema": "3DCA844C2CFD4662AE5EDB40EBB90370", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385632] "database_id": "f45e4fbe-478b-48c4-8ce2-291b3fd48e1b", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385637] "user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385640] "hdi_user": "3DCA844C2CFD4662AE5EDB40EBB90370_EKUJRI3NP1Q6HFPH56WDY21Y2_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385644] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385646] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385648] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385649] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385651] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385654] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385655] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385657] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:42.017#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-384#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:39.385659] } (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.604924] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.18.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.604954] Deployment started at 2026-08-19 17:47:43 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605152] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605172] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605178] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605180] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605182] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605482] Deployment ended at 2026-08-19 17:47:43 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605666] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.605804] (4s 292ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.614721] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.614737] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.614740] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.614742] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.614745] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:43.664282] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:44.008255] Cell c029166f-5c99-471a-95ad-14514ab6ab95 stopping instance 73aa2620-0bcc-4fa3-a7c2-090bbd582e6b (STDOUT, CELL)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:44.008310] Cell c029166f-5c99-471a-95ad-14514ab6ab95 destroying container for instance 73aa2620-0bcc-4fa3-a7c2-090bbd582e6b (STDOUT, CELL)#
+#2026 08 19 17:47:52.029#Z#DEBUG#d739ad82-9bf5-11f1-8315-eeee0a991ab8.mycapapp-db-deployer#flowable-async-job-executor-thread-390#
+[PollExecuteTaskStatusExecution] 226dcc0b-a6a8-45c3-833a-d67d2c896271 [2026-08-19T17:47:46.299567] Cell c029166f-5c99-471a-95ad-14514ab6ab95 successfully destroyed container for instance 73aa2620-0bcc-4fa3-a7c2-090bbd582e6b (STDOUT, CELL)#

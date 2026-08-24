@@ -1,0 +1,118 @@
+### For every new call ###
+### Get the service document
+
+http://localhost:4004/odata/v4/CatalogService
+Authorization: Basic naira:1234
+### Service metadata  - describe the skeleton of the service - $metadata
+
+
+http://localhost:4004/odata/v4/CatalogService/$metadata
+Authorization: Basic naira:1234
+
+### Get all employee  records
+http://localhost:4004/odata/v2/CatalogService/EmployeeSet
+Authorization: Basic naira:1234
+### Get the count of all Employees - $count
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/$count
+
+### Get the single employee data by key  - 02BD2137-0890-1EEA-A6C2-BB55C197A7FB
+
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C197A7FB
+
+### Get with Pagination to load chunk by chunk
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$top=2&$skip=2
+
+### Get with filtering  - $filter  --> Simple filter
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=bankName eq 'My Bank of San Francisco'
+
+### Get with filtering  - $filter  --> pattern match where name like 'Su*
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=contains(nameFirst,'Su')
+
+
+### Get with filtering  - $filter  --> pattern match where name ends with 'an*'
+http://localhost:4004/odata/v4/CatalogService/EmployeeSet?$filter=endswith(nameFirst, 'an')
+
+
+### Get all the purchase orders
+
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet
+Authorization: Basic naira:1234
+### Get single purchase order 02BD2137-0890-1EEA-A6C2-BB55C1978999
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/02BD2137-0890-1EEA-A6C2-BB55C1978999
+
+### Get with association  - purchase order  with its item
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/02BD2137-0890-1EEA-A6C2-BB55C1978999?$expand=Items
+
+### Get all the orders header with all their items
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet?$expand=Items
+
+### Lamda Function - All or Any
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet?$expand=Items&$filter=Items/all(wa:wa/GROSS_AMOUNT gt 20000)
+
+### POST CALL - Create a employee record
+POST http://localhost:4004/odata/v4/CatalogService/EmployeeSet
+Content-Type: application/json
+Authorization: Basic niyati:4321
+
+{
+  "nameFirst": "Sumit",
+  "nameMiddle": null,
+  "nameLast": "Sanyal",
+  "nameInitials": null,
+  "sex": "F",
+  "language": "E",
+  "phoneNumber": null,
+  "email": "sumit@anubhavtrainings.com",
+  "loginName": "SUMMERS",
+  "currency_code": "EUR",
+  "salaryAmount": 10000,
+  "accountNumber": "9988776655",
+  "bankId": "121000358",
+  "bankName": "RBS",
+  "country": "IN"
+}
+
+
+### PATCH CALL : Change the salary of Sumit
+
+PATCH  http://localhost:4004/odata/v4/CatalogService/EmployeeSet/186e7e44-d761-437e-b786-a20228cdb7fa
+Content-Type: application/json
+
+{
+  "salaryAmount" : 1000000,
+  "nameFirst" : "Shalini"
+}
+
+### DELETE RECORD
+
+DELETE http://localhost:4004/odata/v4/CatalogService/EmployeeSet/186e7e44-d761-437e-b786-a20228cdb7fa
+
+### GET service document for cdsservice
+
+GET http://localhost:4004/odata/v4/CDSService
+
+### Get the product data
+
+GET http://localhost:4004/odata/v4/CDSService/ProductSet
+
+###Get Product data using OdataV2
+GET http://localhost:4004/odata/v2/CDSService/ProductSet
+
+###Get Single Product Data
+
+GET http://localhost:4004/odata/v4/CDSService/ProductSet/74867AD200E41EDBA5D8B06B26EB4052
+
+### Lazy loading - On demand join  - Mixin Concept
+GET http://localhost:4004/odata/v4/CDSService/ProductSet/74867AD200E41EDBA5D8B06B26EB4052?$expand=To_Items
+
+###Get the single PO
+http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/02BD2137-0890-1EEA-A6C2-BB55C1978999
+
+### Boost Action
+POST http://localhost:4004/odata/v4/CatalogService/PurchaseOrderSet/02BD2137-0890-1EEA-A6C2-BB55C1978999/boost
+Content-Type: application/json
+
+{}
+
+### getMostExpensive Order
+GET http://localhost:4004/odata/v4/CatalogService/getMostExpensiveOrders(zkas=5)
