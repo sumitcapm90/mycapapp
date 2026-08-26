@@ -47,7 +47,7 @@
   ],
   "role-collections": [
     {
-      "name": "UserViewerRC",
+      "name": "mycapapp_UserViewerRC",
       "description": "User Viewer Role Collection",
       "role-template-references": [
         "$XSAPPNAME.Viewer"
