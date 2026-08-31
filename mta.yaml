@@ -17,6 +17,8 @@ modules:
     path: app
     parameters:
       instances: 1
+      memory: 256M
+      disk-quota: 512M
       buildpack: nodejs_buildpack
     build-parameters:
       builder: npm-ci
@@ -37,6 +39,8 @@ modules:
     path: gen/srv
     parameters:
       instances: 1
+      memory: 256M
+      disk-quota: 512M
       buildpack: nodejs_buildpack
     build-parameters:
       builder: npm-ci
